@@ -26,5 +26,5 @@ if(allowed){
     }
 }   else{
     // L'utente inserito non può entrare 
-    document.getElementById("result").innerHTML = "Ci dispiace, non sei autorizzato a giocare ai dadi."
+    document.getElementById("result").innerHTML = "Ci dispiace, la tua mail non è autorizzata ad accedere."
 }
