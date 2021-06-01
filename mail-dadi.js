@@ -21,7 +21,9 @@ if(allowed){
     // Dichiarazione risultato 
     if(playerNum > computerNum){
         document.getElementById("result").innerHTML = "Hai vinto ai dadi! Congratulazioni!"
-    }   else{
+    } else if(playerNum == computerNum){
+        document.getElementById("result").innerHTML = "Pareggio!"
+    } else{
         document.getElementById("result").innerHTML = "Hai perso. Peccato!"
     }
 }   else{
